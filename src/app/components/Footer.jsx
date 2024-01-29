@@ -34,7 +34,7 @@ const Footer = () => {
           <a className="link link-hover">Careers</a>
           <a className="link link-hover">Contact</a>
         </nav>
-        <nav className="flex flex-row justify-items-center ">
+        <nav className="flex flex-row justify-items-center">
           <h6 className="footer-title">
             <a className="link link-hover">
               <AiFillFacebook />
