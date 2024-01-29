@@ -14,6 +14,7 @@ module.exports = {
       GrayishViolet: "hsl(257, 7%, 63%)",
       VeryDarkBlue: "hsl(255, 11%, 22%)",
       VeryDarkViolet: "hsl(260, 8%, 14%)",
+      White:"#fff"
     },
   },
   plugins: [require("daisyui")],
