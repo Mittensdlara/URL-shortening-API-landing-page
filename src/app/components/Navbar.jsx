@@ -51,7 +51,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end hidden lg:flex space-x-4">
-        <a className="btn btn-primary">Sign Up</a>
+        <a className="btn btn-primary text-White">Sign Up</a>
         <a className="btn btn-transparent">Login</a>
       </div>
     </div>

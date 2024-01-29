@@ -1,17 +1,16 @@
-import brandIcon from "../images/icon-brand-recognition.svg"
 import Image from "next/image"
 
-const Card = ({ title, description }) => {
+const Card = ({ title, description,icon}) => {
 
 
   return (
     <>
-      <div className="card w-9/12 bg-base-100 shadow-xl m-5">
-        <figure className="px-10 pt-10">
+      <div className="card w-9/12 bg-base-100 shadow-xl m-2">
+        <figure className="pt-5">
           <Image
-            src={brandIcon}
+            src={icon}
             alt="brand"
-            className="rounded-xl"
+            className="rounded-2xl m-2 p-2 bg-DarkViolet"
           />
         </figure>
         <div className="card-body items-center text-center">
